@@ -1,0 +1,47 @@
+.principal{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.image{
+    background-image: url("../assets/team.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    height: 190px;
+    margin: 0 0 2.5rem 0;
+    width: 300px;
+}
+
+.article{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.article-title{
+    color: #766F68;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.article-phrase{
+    color: #766F68;
+    font-size: 1.2rem;
+    margin: 2.6rem 0 2.3rem 0;
+    text-align: center;
+
+}
+
+.article-button{
+    background-color: #D2872C;
+    border: none;
+    border-radius: 1.2rem;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1.2rem 4rem;
+}

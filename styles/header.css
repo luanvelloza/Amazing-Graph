@@ -1,8 +1,8 @@
 .header{
-    display: flex;
-    justify-content: space-around;
     align-items: center;
-    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 2.8rem 1.4rem 2.8rem 2.8rem;
 }
 
 .logo{
@@ -29,10 +29,10 @@
 /* fim mobile-menu */
 
 .nav-list li{
-    font-size: 1.5rem;
     color: #000000;
-    margin-left: 1rem;
+    font-size: 1.2rem;
     font-weight: 700;
+    margin-left: 1rem;
 }
 
 .nav-list a{
@@ -48,24 +48,24 @@
     }
 
     .nav-list{
+        background: #D2872C;
+        border-radius: 10px;
+        height: 100vh;
         position: absolute;
         top: 10vh;
         right: 0;
-        width: 50vw;
-        height: 100vh;
-        background: #D2872C;
         text-align: start;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
-        border-radius: 10px;
+        width: 50vw;
     }
 
     .nav-list li{
+        border-bottom: 1px solid #766F68;
         opacity: 0;
         margin-left: 0;
         margin: 1rem 0 1rem 20px;
         padding-bottom: 10px;
-        border-bottom: 1px solid #766F68;
     }
 
     .nav-list.active{
