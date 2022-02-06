@@ -13,7 +13,6 @@
 
 .mobile-menu{
     cursor: pointer;
-    display: none;
 }
 
 .mobile-menu div{
@@ -93,7 +92,7 @@
 
 @media (min-width: 992px){
     .header{
-        margin: 2.8rem 3.5rem 2.5rem 3.5rem;
+        margin: 2.6rem 3.5rem 2.6rem 3.5rem;
     }
 
     .logo{
@@ -107,13 +106,13 @@
     .nav-list{
         background: initial;
         border-radius: none;
+        display: flex;
         height: initial;
         position: initial;
         transform: initial;
         transition: none;
         width: initial;
 
-        display: flex;
     }
 
     .nav-list li{
@@ -124,8 +123,6 @@
         opacity: 100;
         margin: 1rem 0 1rem 20px;
         padding-bottom: 0;
-
-        
     }
 
 

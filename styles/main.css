@@ -83,9 +83,9 @@
 
 @media (min-width: 992px){
     main{
+        align-items: center;
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
 
     .principal{
@@ -98,19 +98,18 @@
     .image{
         background-size: 550px;
         height: 350px;
-        width: 550px;
-        position: relative;
-        margin: initial;
-
-        top: 40px;
         left: 25.4rem;
+        margin: initial;
+        position: relative;
+        top: 40px;
+        width: 550px;
     }
 
     .article{
-        position: absolute;
         align-items: start;
-        width: 40%;
         margin-left: 6.8rem;
+        position: absolute;
+        width: 40%;
     }
 
     .article-title{
@@ -138,10 +137,9 @@
 
     .image{
         background-size: 590px;
-        width: 590px;
-
-        top: 35px;
         left: 25.3rem;
+        top: 35px;
+        width: 590px;
     }
 
 }
@@ -153,11 +151,10 @@
 
     .image{
         background-size: 670px;
-        width: 670px;
         height: 380px;
-
-        top: 45px;
         left: 25.1rem;
+        top: 45px;
+        width: 670px;
     }
 
 }
