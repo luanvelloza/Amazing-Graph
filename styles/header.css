@@ -2,12 +2,10 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin: 2.8rem 1.4rem 2.8rem 2.8rem;
 }
 
 .logo{
     color: #D2872C;
-    font-size: 2rem;
     font-weight: 700;
 }
 
@@ -29,9 +27,6 @@
 /* fim mobile-menu */
 
 .nav-list li{
-    color: #000000;
-    font-size: 1.2rem;
-    font-weight: 700;
     margin-left: 1rem;
 }
 
@@ -42,7 +37,15 @@
 /*-------------------- Responsividade --------------------*/
 
 
-@media (max-width: 768px){
+@media (min-width: 0px){
+    .header{
+        margin: 2.8rem 1.4rem 2.8rem 2.8rem;
+    }
+
+    .logo{
+        font-size: 2rem;
+    }
+
     .mobile-menu{
         display: block;
     }
@@ -62,6 +65,9 @@
 
     .nav-list li{
         border-bottom: 1px solid #766F68;
+        color: #000000;
+        font-size: 1.2rem;
+        font-weight: 700;
         opacity: 0;
         margin-left: 0;
         margin: 1rem 0 1rem 20px;
@@ -84,4 +90,46 @@
         
     }
 }
+
+@media (min-width: 992px){
+    .header{
+        margin: 2.8rem 3.5rem 2.5rem 3.5rem;
+    }
+
+    .logo{
+        font-size: 2rem;
+    }
+
+    .mobile-menu{
+        display: none;
+    }
+
+    .nav-list{
+        background: initial;
+        border-radius: none;
+        height: initial;
+        position: initial;
+        transform: initial;
+        transition: none;
+        width: initial;
+
+        display: flex;
+    }
+
+    .nav-list li{
+        border-bottom: initial;
+        color: #766F68;
+        font-size: 1.45rem;
+        font-weight: 400;
+        opacity: 100;
+        margin: 1rem 0 1rem 20px;
+        padding-bottom: 0;
+
+        
+    }
+
+
+
+}
+
 

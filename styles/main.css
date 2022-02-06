@@ -1,39 +1,25 @@
 .principal{
-    align-items: center;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
 }
 
 .image{
     background-image: url("../assets/team.jpg");
     background-repeat: no-repeat;
-    background-size: 300px;
-    height: 190px;
-    margin: 0 0 2.5rem 0;
-    width: 300px;
 }
 
 .article{
-    align-items: center;
     display: flex;
     flex-direction: column;
-    width: 80%;
 }
 
 .article-title{
     color: #766F68;
-    font-size: 2.5rem;
     font-weight: 700;
-    text-align: center;
 }
 
 .article-phrase{
     color: #766F68;
-    font-size: 1.2rem;
     margin: 2.6rem 0 2.3rem 0;
-    text-align: center;
-
 }
 
 .article-button{
@@ -41,7 +27,137 @@
     border: none;
     border-radius: 1.2rem;
     color: #FFFFFF;
-    font-size: 1.2rem;
     font-weight: bold;
-    padding: 1.2rem 4rem;
+}
+
+/*-------------------- Responsividade --------------------*/
+
+@media (min-width: 0px){
+    .principal{
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .image{
+        background-size: 300px;
+        height: 190px;
+        width: 300px;
+        position: initial;
+        margin: 0 0 2.5rem 0;
+    }
+
+    .article{
+        position: initial;
+        align-items: center;
+        width: 80%;
+    }
+
+
+    .article-title{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    .article-phrase{
+        font-size: 1.2rem;
+        text-align: center;
+    
+    }
+    
+    .article-button{
+        font-size: 1.2rem;
+        padding: 1.2rem 4rem;
+    }
+
+}
+
+@media (min-width: 768px){
+    .image{
+        background-size: 500px;
+        height: 290px;
+        width: 500px;
+    }
+
+}
+
+@media (min-width: 992px){
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .principal{
+        align-items: center;
+        flex-direction: row;
+        justify-content: initial;
+        width: 992px;
+    }
+
+    .image{
+        background-size: 550px;
+        height: 350px;
+        width: 550px;
+        position: relative;
+        margin: initial;
+
+        top: 40px;
+        left: 25.4rem;
+    }
+
+    .article{
+        position: absolute;
+        align-items: start;
+        width: 40%;
+        margin-left: 6.8rem;
+    }
+
+    .article-title{
+        font-size: 3.5rem;
+        text-align: initial;
+    }
+    
+    .article-phrase{
+        font-size: 1.45rem;
+        text-align: initial;
+        width: 400px;
+    
+    }
+    
+    .article-button{
+        font-size: 1.45rem;
+        padding: 1.45rem 4rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .principal{
+        width: 1024px;
+    }
+
+    .image{
+        background-size: 590px;
+        width: 590px;
+
+        top: 35px;
+        left: 25.3rem;
+    }
+
+}
+
+@media (min-width: 1200px){
+    .principal{
+        width: 1200px;
+    }
+
+    .image{
+        background-size: 670px;
+        width: 670px;
+        height: 380px;
+
+        top: 45px;
+        left: 25.1rem;
+    }
+
 }
